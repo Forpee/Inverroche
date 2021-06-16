@@ -91,7 +91,7 @@ export default function Intro() {
       <div className="absolute h-screen w-screen top-0 left-0 bg-white video flex ">
         <button
           onClick={handleVidClose}
-          className="absolute ball bottom-2 text-2xl sm:text-5xl right-2 bg-black rounded-full flex "
+          className="absolute ball sm:bottom-2 bottom-16 text-2xl sm:text-5xl right-2 bg-black rounded-full flex "
         >
           <FontAwesomeIcon
             onClick={handleVidClose}
