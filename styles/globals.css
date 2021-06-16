@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@500&display=swap");
 html,
 body {
   padding: 0;
+  overflow-x: hidden;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -13,4 +17,148 @@ a {
 
 * {
   box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fa {
+  color: #484848;
+
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.fa:hover {
+  color: #f24738;
+}
+.w-half {
+  width: 50vw;
+}
+.h-half {
+  height: 50vh;
+}
+.w-quarter {
+  width: 25vw;
+}
+.mbm-d {
+  mix-blend-mode: difference;
+}
+.mbm-s {
+  mix-blend-mode: overlay;
+}
+.h-screenx3 {
+  height: 300vh;
+}
+.h-screen-0-2 {
+  height: 20vh;
+}
+.h-120{
+  height: 40rem;
+}
+.ball{
+  width: 80px;
+  height: 80px;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  border-radius: 4px;
+  color: black;
+  -webkit-text-stroke: 1px #7f8c8d;
+}
+.z-image{
+  z-index: -10;
+}
+.video{
+
+ z-index: 999;
+
+ 
+  
+
+}
+.z-999{
+  z-index: 999;
+}
+.sideline {
+  position: absolute;
+  top: calc(50vh - 111px - 7px);
+  left: calc(1vw + 0px);
+  height: 222px;
+  width: 3px;
+  background-color: black;
+  transform: scaleY(0);
+  transform-origin: top center;
+  z-index: 1;
+}
+
+.text {
+  font-size: 30px;
+
+  text-transform: uppercase;
+}
+
+.outline-text {
+  width: 120vh;
+  line-height: 1;
+  font-size: 14rem;
+}
+.inner-vid{
+  width:90vw;
+}
+.grad-0 {
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  right: 25vh;
+}
+.grad-1 {
+  background: #005aa7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffde4,
+    #005aa7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffde4,
+    #005aa7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  right: 25vh;
+}
+.grad-2 {
+  background: #004ff9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fff94c,
+    #004ff9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fff94c,
+    #004ff9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  right: 25vh;
 }
