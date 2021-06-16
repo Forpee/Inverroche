@@ -78,11 +78,11 @@ export default function MainCourse() {
             <div className="text-wrap h-screen w-96  flex flex-col justify-center items-start bg-white text-gray-700 ml-8 sm:ml-24 md:ml-40">
               <div className="text ">Distillery</div>
               <div className="text my-12 sm:my-16">Fynbos</div>
-              <div className="text ">Botanicals</div>\
+              <div className="text ">Botanicals</div>
             </div>
             <div className="absolute sm:top-40 top-32 md:top-72 left-0 h-4 border-l-0 border-4 border-white w-48 bg-transparent"></div>
-            <div className="absolute left-4 md:left-48 bottom-8 md:bottom-48 w-80">
-              <p className="font-semibold">
+            <div className="absolute left-4 md:left-48 bottom-8 md:bottom-48 w-3/4 sm:w-80">
+              <p className="font-semibold text-xs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
@@ -104,7 +104,7 @@ export default function MainCourse() {
                 </h1>
               </div>
               <div className="content content-1">
-                <h1 className="transform -rotate-90  outline-text ">Fynbos</h1>
+                <h1 className="transform -rotate-90 mbm-d outline-text ">Fynbos</h1>
               </div>
               <div className="content content-2 remaining">
                 <h1 className="transform -rotate-90  outline-text mbm-d">

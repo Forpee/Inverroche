@@ -2,3 +2,36 @@
 
 
 
+@media only screen and (max-width: 500px) {
+    .outline-text {
+      width: 50vh;
+      line-height: 1;
+      font-size: 4rem;
+      margin-top: 25vh;
+      padding-bottom:  25vh;
+     
+
+
+    }
+    .text {
+        font-size: 10px;
+      
+        text-transform: uppercase;
+      }
+      .ball{
+        width: 40px;
+        height: 40px;
+      }
+      .grad-0 {
+      
+        right: 0;
+      }
+      .grad-1 {
+   
+        right: 0;
+      }
+      .grad-2 {
+      
+        right: 0;
+      }
+  }

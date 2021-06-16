@@ -80,23 +80,23 @@ export default function Intro() {
       <div className="absolute bottom-4 right-4 md:right-56 md:bottom-16 sm:h-48 h-16 w-16 md:w-72 sm:w-48 md:h-72 image bg-white "></div>
       <div
         onClick={handleVid}
-        className="cursor-pointer absolute ball top-20 left-8 md:top-64 md:left-64 bg-black rounded-full flex pl-3"
+        className="text-2xl sm:text-5xl cursor-pointer absolute ball top-20 left-8 md:top-64 md:left-64 bg-black rounded-full flex sm:pl-3"
       >
         <FontAwesomeIcon
           icon={faCaretRight}
-          size="4x"
+          
           className="text-white m-auto"
         />
       </div>
       <div className="absolute h-screen w-screen top-0 left-0 bg-white video flex ">
         <button
           onClick={handleVidClose}
-          className="absolute ball bottom-2 right-2 bg-black rounded-full flex "
+          className="absolute ball bottom-2 text-2xl sm:text-5xl right-2 bg-black rounded-full flex "
         >
           <FontAwesomeIcon
             onClick={handleVidClose}
             icon={faTimes}
-            size="3x"
+            
             className="text-white m-auto z-999"
           />
         </button>
